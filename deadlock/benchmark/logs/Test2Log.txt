@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------------------------
+Test2: Processes .. with all Insert operations
+
+- This test is similar in operations in each Transaction as Benchmark Test3. 
+- The difference is the mode used. Here it is "Process"
+- Even though, there is a loop created by the operations as follows:
+	
+	T0 -> T1 -> T2 -> T3 -> T4 -> T5 -> T6 -> T7 -> T8 -> T9 -> T0 
+ 
+- DeadLock detects nothing, and the reason is that every T releases the resource once it is done. 
+    DeadLocks are not possible.
+- All operations and transactions happen with no problem.
+--------------------------------------------------------------------------------------------------

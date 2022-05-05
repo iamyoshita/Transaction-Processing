@@ -1,0 +1,7 @@
+--------------------------------------------------------------------------------------------------------
+Test1: Read operations:
+- No matter how many transactions or operations in each transaction, Read do not have any conflict. 
+- We used 10 transactions with 12 Read operations each, with mix order (to force conflict possibility).
+- No DeadLocks or abort, all transactions commit normally.
+- DeadLock Detection is called and never cought a cycle or issue.
+--------------------------------------------------------------------------------------------------------

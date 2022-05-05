@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------------
+DIRTY READ
+--------------------------------------------------------------------------------------
+I-R (insertT1.txt, readT1.txt)
+Test2
+Expected:
+Insert lock is granted. Read will wait until the first transaction is committed. 
+Later the release lock will start the next transaction.
+--------------------------------------------------------------------------------------

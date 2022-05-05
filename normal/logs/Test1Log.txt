@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------------
+INSERT INSERT
+--------------------------------------------------------------------------------------
+I-I (insertT1.txt, insertT2.txt)
+Test1
+Expected: 
+Insert lock is granted and runs immediately. The second insert acquires the lock 
+and runs as they are for different rows
+--------------------------------------------------------------------------------------

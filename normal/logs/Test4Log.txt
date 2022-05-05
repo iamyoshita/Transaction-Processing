@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------------
+NON REPEATABLE READ
+--------------------------------------------------------------------------------------
+R-I (read_nT1.txt, insertT1.txt)
+Test4
+Expected:
+Read lock is granted and runs immediately. Insert can't acquire the lock and waits 
+until the read is committed.
+--------------------------------------------------------------------------------------

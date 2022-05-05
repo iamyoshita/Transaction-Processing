@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------------------------------
+Test2
+I-I-I (DeadLock between Insert Transactions)
+insertT0.txt, insertT1.txt, insertT2.txt
+
+Expected: 
+3 Transactions (T0, T1, T2), create a deadlock, and it is resolved by removing the last inserted (T2).
+
+--------------------------------------------------------------------------------------------------------

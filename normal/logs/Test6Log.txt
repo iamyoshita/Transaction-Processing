@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------------
+DIRTY READ 
+--------------------------------------------------------------------------------------
+I-R (insertP1.txt, readP1.txt)
+Test6
+
+Expected:
+read uncommited. so Read can read before insert releases its lock.
+Insert gets the lock, executes, then release it's lock.
+--------------------------------------------------------------------------------------

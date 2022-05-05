@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------------
+NON REPEATABLE READ
+--------------------------------------------------------------------------------------
+R-I-R (1.txt, insertP1.txt)
+Test7
+
+Expected: 
+The second read for T0 should have a different value. In Process mode nonrepeatable 
+reads could occur. 
+--------------------------------------------------------------------------------------

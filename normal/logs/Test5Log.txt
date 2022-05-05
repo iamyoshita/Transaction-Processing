@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------------
+NON REPEATABLE MREAD
+--------------------------------------------------------------------------------------
+M-I (1.txt, 2.txt)
+Test5
+
+Expected:
+Mread lock is granted and runs immediately. Insert can't acquire the lock
+and waits until the mread is committed.
+--------------------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------------------------------
+Test3
+R-R-R (Deadlocks with Insert Processes)
+insertP0.txt, insertP1.txt, insertP2.txt
+
+Expected: 
+3 Transactions (T0, T1, T2), access the same resources, but the mode is "Process", which means 
+each transaction releases resources right after finishing.
+
+--------------------------------------------------------------------------------------------------------

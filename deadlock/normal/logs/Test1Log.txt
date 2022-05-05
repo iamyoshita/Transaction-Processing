@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------------------------------
+Test1
+R-R-R (Deadlocks with Read Transactions)
+readT0.txt, readT1.txt, readT2.txt
+
+Expected: 
+3 Transactions (T0, T1, T2), read the same record over and over. But read do not conflict 
+with each other, so no deadlock created and all transactions commit normally
+
+--------------------------------------------------------------------------------------------------------

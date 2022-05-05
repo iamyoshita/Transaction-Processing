@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------------------
+NON REPEATABLE READ 2
+--------------------------------------------------------------------------------------
+R-I-R (insertT1.txt, readP1.txt, readT1.txt)
+Test10
+
+Expected: 
+The insert transaction holds a lock on the data item. The process doesnt wait and reads. and the 
+third transaction wait for the lock to be released. When the process can acquire the 
+lock it runs and immediately releases the lock allowing the last transaction to run.
+--------------------------------------------------------------------------------------

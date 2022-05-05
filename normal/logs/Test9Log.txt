@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------------
+NON REPEATABLE READ
+--------------------------------------------------------------------------------------
+R-I-R (read_nT1.txt, insertP1.txt)
+Test9
+
+Expected: 
+Since the read is a transaction, it acquires the read lock and releases it 
+at commit time and this causes the Process to wait until T0 Commits.
+--------------------------------------------------------------------------------------

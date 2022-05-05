@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------------
+INSERT MREAD
+--------------------------------------------------------------------------------------
+I-M (insertT1.txt, mreadT1.txt)
+Test3
+Expected: 
+Insert lock is granted and runs immediately. Mread can’t acquire the lock 
+and waits to run until the first transaction is committed. 
+--------------------------------------------------------------------------------------

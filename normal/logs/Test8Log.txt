@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------------
+DIRTY READ
+--------------------------------------------------------------------------------------
+I-R (insertT1.txt, readP1.txt)
+Test8
+
+Expected: 
+Insert is a transaction so it will acquire the lock and wait. 
+the record is locked by a transaction but the process reads before T0 commits.
+--------------------------------------------------------------------------------------
