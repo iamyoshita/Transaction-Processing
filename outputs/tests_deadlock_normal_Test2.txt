@@ -1,0 +1,46 @@
+BEGIN 1
+
+BEGIN 2
+
+BEGIN 3
+
+1 WRITTEN: X,1,21,30
+
+CREATE X L-0 K-X1-X2
+
+2 WRITTEN: X,2,21,30
+
+3 WRITTEN: X,3,21,30
+
+deadlock detected, aborting2 
+
+A 2
+
+CREATE X L-0 K-X2-X3
+
+1 WRITTEN: X,2,21,30
+
+deadlock detected, aborting1 
+
+A 1
+
+3 WRITTEN: X,1,21,30
+
+SWAP IN L-0 K-X1-X31
+
+CREATE X L-0 K-X1-X31
+
+3 WRITTEN: X,31,21,30
+
+3 WRITTEN: X,4,21,30
+
+CREATE X L-0 K-X4-X5
+
+3 WRITTEN: X,5,21,30
+
+3 WRITTEN: X,17,21,30
+
+C 3
+
+-----------------------
+

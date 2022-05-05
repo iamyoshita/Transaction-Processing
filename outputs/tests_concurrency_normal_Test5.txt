@@ -1,0 +1,53 @@
+BEGIN 1
+
+BEGIN 2
+
+1 M X a 27
+
+1 M X a 27
+
+C 1
+
+-----------------------
+
+2 WRITTEN: X,2,27,3
+
+C 2
+
+-----------------------
+
+
+BEGIN 1
+
+1 WRITTEN: X,2,27,3
+
+C 1
+
+-----------------------
+
+BEGIN 2
+
+2 M X a 27
+
+MREAD: X,2,27,3
+
+SWAP IN L-0 K-X1-X2
+
+SWAP IN L-0 K-X3-X31
+
+2 M X a 27
+
+MREAD: X,2,27,3
+
+SWAP OUT L-0 K-X1-X2
+
+SWAP IN L-0 K-X1-X2
+
+SWAP OUT L-0 K-X3-X31
+
+SWAP IN L-0 K-X3-X31
+
+C 2
+
+-----------------------
+

@@ -1,0 +1,5848 @@
+BEGIN 1
+
+1 WRITTEN: X,2,25,3
+
+1 WRITTEN: X,5,25,2
+
+C 1
+
+-----------------------
+
+BEGIN 2
+
+G: X,AVG: 2.0
+
+C 2
+
+-----------------------
+
+BEGIN 3
+
+A 3
+
+BEGIN 4
+
+4 WRITTEN: X,2,27,4
+
+4 WRITTEN: X,5,28,5
+
+A 4
+
+BEGIN 5
+
+R X 2
+
+READ: X,2,27,4
+
+5 UPDATED: X,2,27,2 prev: 4
+
+A 5
+
+BEGIN 6
+
+6 WRITTEN: X,2,25,3
+
+A 6
+
+BEGIN 7
+
+7 WRITTEN: X,3,36,4
+
+C 7
+
+-----------------------
+
+BEGIN 8
+
+R X 3
+
+READ: X,3,36,4
+
+8 UPDATED: X,3,36,1 prev: 4
+
+C 8
+
+-----------------------
+
+BEGIN 9
+
+R X 3
+
+READ: X,3,36,1
+
+C 9
+
+-----------------------
+
+BEGIN 1
+
+1 WRITTEN: X,2,25,3
+
+1 WRITTEN: X,5,25,2
+
+C 1
+
+-----------------------
+
+BEGIN 2
+
+G: X,AVG: 2.0
+
+C 2
+
+-----------------------
+
+BEGIN 3
+
+A 3
+
+BEGIN 4
+
+4 WRITTEN: X,2,27,4
+
+4 WRITTEN: X,5,28,5
+
+A 4
+
+BEGIN 5
+
+R X 2
+
+READ: X,2,27,4
+
+5 UPDATED: X,2,27,2 prev: 4
+
+A 5
+
+BEGIN 6
+
+6 WRITTEN: X,2,25,3
+
+A 6
+
+BEGIN 7
+
+7 WRITTEN: X,3,36,4
+
+C 7
+
+-----------------------
+
+BEGIN 8
+
+R X 3
+
+READ: X,3,36,4
+
+8 UPDATED: X,3,36,1 prev: 4
+
+C 8
+
+-----------------------
+
+BEGIN 9
+
+R X 3
+
+READ: X,3,36,1
+
+C 9
+
+-----------------------
+
+BEGIN 1
+
+I X (2, 25, 3)
+
+CREATE T-X P-0
+
+SWAP IN T-X P-0
+
+1 WRITTEN: X,2,25,3
+
+I X (5, 25, 2)
+
+1 WRITTEN: X,5,25,2
+
+C 1
+
+-----------------------
+
+BEGIN 2
+
+G: X,AVG: 2.0
+
+C 2
+
+-----------------------
+
+BEGIN 3
+
+A 3
+
+BEGIN 4
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+
+I X (2, 27, 4)
+
+4 WRITTEN: X,2,27,4
+
+I X (2, 25, 3)
+
+4 WRITTEN: X,2,25,3
+

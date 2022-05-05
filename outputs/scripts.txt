@@ -1,0 +1,52 @@
+BEGIN 1
+
+1 WRITTEN: X,2,25,3
+
+C 1
+
+-----------------------
+
+BEGIN 2
+
+R X 2
+
+READ: X,2,25,3
+
+deadlock detected, aborting2 
+
+A 2
+
+BEGIN 1
+
+1 WRITTEN: X,2,25,3
+
+C 1
+
+-----------------------
+
+BEGIN 2
+
+R X 2
+
+READ: X,2,25,3
+
+deadlock detected, aborting2 
+
+A 2
+
+BEGIN 1
+
+R X 2
+
+C 1
+
+-----------------------
+
+BEGIN 1
+
+R X 2
+
+C 1
+
+-----------------------
+
